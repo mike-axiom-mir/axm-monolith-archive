@@ -1,0 +1,46 @@
+{
+  "schema": "axm.monolith-archive.current/v0.1",
+  "status": "CURRENT_SELECTED_TEST_CHECKPOINT_NOT_CANON",
+  "selected_at_utc": "2026-09-15T13:10:54Z",
+  "version": "v0.4.42-PACKAGE-BIN-NATIVE-WIRING",
+  "filename": "AXM_Connected_Monolith_v0.4.42-PACKAGE-BIN-NATIVE-WIRING.zip",
+  "sha256": "e6fd381680061cd193e29655ec760122138c65c9867fc0ac3c06fd0d5273fd18",
+  "size_bytes": 295374994,
+  "full_wired_test": false,
+  "canon": false,
+  "product_acceptance": false,
+  "evidence_summary": {
+    "modules_represented": "38/38",
+    "modules_broad_test_evidence": "38/38",
+    "modules_executed": "21/38",
+    "native_source_smokes": "21/21 PASS current replay",
+    "cross_repo_bridges": "7/7 PASS retained from byte-identical parent evidence",
+    "workfloor_paths": "3/3 PASS retained from byte-identical parent evidence",
+    "endpoint_count": 23714,
+    "actionable_endpoints": 398,
+    "blocked_endpoints": 23316,
+    "donor_integrity": "13270/13270 exact packaged donor files matched parent"
+  },
+  "artifact": {
+    "preferred_transport": "github_release_asset",
+    "release_tag": "v0.4.42-PACKAGE-BIN-NATIVE-WIRING",
+    "asset_name": "AXM_Connected_Monolith_v0.4.42-PACKAGE-BIN-NATIVE-WIRING.zip",
+    "state": "ASSET_UPLOAD_PENDING",
+    "truth_boundary": "The exact ZIP is persistence-verified in AXM checkpoint storage, but this archive repository does not claim the GitHub Release asset exists until it is actually uploaded and verified."
+  },
+  "source_checkpoint": {
+    "persistent_library_path": "/AXM/Monolith Checkpoints/AXM_Connected_Monolith_v0.4.42-PACKAGE-BIN-NATIVE-WIRING.zip",
+    "persistence_verified": true
+  },
+  "learned_wiring": {
+    "monolith_repository": "mike-axiom-mir/axm-monolith",
+    "package_bin_rule_pr": 18,
+    "package_bin_rule_merge_commit": "65c3a0d9598d58c86031ed8d530b9af94b094728"
+  },
+  "roots": [
+    "Truth",
+    "Agency / non-domination",
+    "Continuity",
+    "Wisdom before speed"
+  ]
+}
