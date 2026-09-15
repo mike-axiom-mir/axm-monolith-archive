@@ -1,0 +1,14 @@
+{
+  "schema": "axm.monolith-archive.index/v0.1",
+  "policy": {
+    "automatic_archiving": false,
+    "automatic_current_promotion": false,
+    "selection_rule": "Only bodies deliberately chosen as worth preserving enter this archive.",
+    "immutability_rule": "Once a historical body is archived, its ZIP bytes and SHA-256 identity are not silently replaced."
+  },
+  "current": {
+    "version": "v0.4.42-PACKAGE-BIN-NATIVE-WIRING",
+    "pointer": "../CURRENT.json"
+  },
+  "historical": []
+}
